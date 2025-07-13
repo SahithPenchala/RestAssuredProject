@@ -99,7 +99,7 @@ public class WaysToCreatePostRequestBody
         pojo.setCourses(coursesArr);
 
         given()
-                .contentType("application/json")
+                .contentType("application/json") // here we saying to convert pojo in to json and parse it
                 .body(pojo)
 
                 .when()
