@@ -53,6 +53,7 @@ public class Authentications {
                 .log().all();
     }
 
+<<<<<<< HEAD
     @Test(priority = 4)
     void testBearerTokenAuthentication()
     {
@@ -63,9 +64,21 @@ public class Authentications {
                 .get("https://api.github.com/user/repos")
                 .then()
                 .statusCode(200)
+=======
+//    @Test(priority = 4)
+//    void testBearerTokenAuthentication()
+//    {
+////        String bearerToken = "";
+//        given()
+//                .headers("Authorization","Bearer "+bearerToken)//this authentication we have to specify as part of Header
+//                .when()
+//                .get("https://api.github.com/user/repos")
+//                .then()
+//                .statusCode(200)
+>>>>>>> dcaf2d8 (commented authentication/authorization key)
 //                .body("name",equalTo("<[RestAssuredProject]>"))
-                .log().all();
-    }
+//                .log().all();
+//    }
 
     @Test(priority = 5)
     void testOAUTH1Authentication()
