@@ -68,7 +68,11 @@ public class Authentications {
 //    @Test(priority = 4)
 //    void testBearerTokenAuthentication()
 //    {
+<<<<<<< HEAD
 ////        String bearerToken = "";
+=======
+//        String bearerToken = "";
+>>>>>>> d8e3f91 (Removed authentication/authorization key)
 //        given()
 //                .headers("Authorization","Bearer "+bearerToken)//this authentication we have to specify as part of Header
 //                .when()
